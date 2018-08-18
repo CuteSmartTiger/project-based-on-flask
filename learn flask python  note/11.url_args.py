@@ -25,12 +25,13 @@ def user_detail(user_id):
 
 # /blog/<id>/
 # /user/<id>/
-@app.route('/<any(blog,articletest):url_path>/<id>/')
+# 路径可以为四个当中的任何一个，返回相同的页面
+@app.route('/<any(blog,articletest,liu,hu):url_path>/<id>/')
 def detail(url_path,id):
-    if url_path == 'blog':
+    # if url_path == 'blog':
         return '博客详情：%s' % id
-    else:
-        return '博客详情：%s' % id
+    # else:
+        # return '博客详情：%s' % id
 
 # 通过问号的形式传递参数
 @app.route('/d/')
