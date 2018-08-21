@@ -1,6 +1,6 @@
- from flask import Flask,url_for
+from flask import Flask,url_for
 from flask_restful import Api,Resource,inputs,reqparse
-
+import re
 app = Flask(__name__)
 api=Api(app)
 
@@ -14,11 +14,12 @@ class LoginView(Resource):
     def post(self):
         # 验证姓名，年龄，性别，手机号
         parse=reqparse.RequestParser()
-        parse.add_argument('username',type=str,default='liuziyao',help='姓名参数错误',)
+        # type没法将数据转化为整型时，就会报错
+        parse.add_argument('username',type=str,default='liuziyao',help='姓名参数错误',trim=True)
         parse.add_argument('gender',type=str,choices=['male','female','secret'],help='性别参数错误')
         parse.add_argument('age',type=int,help='年龄参数错误')
         parse.add_argument('telephone',type=inputs.regex(r'1[3578]\d{9}'),help='号码参数错误')
-        parse.add_argument('home_page',type=inputs.url,help='网上参数错误')
+        parse.add_argument('home_page',type=inputs.url,help='网址参数错误')
         # 使用inputs中的date，python中的date函数需要传递三个参数
         parse.add_argument('date',type=inputs.date,help='时间参数错误')
         args=parse.parse_args()
