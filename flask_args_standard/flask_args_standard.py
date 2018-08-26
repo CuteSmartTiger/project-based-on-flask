@@ -52,6 +52,7 @@ api.add_resource(ArticleView,'/article/<article_id>',endpoint='article')
 #     resource_fields={
 #         'title':fields.String,
 #         'content':fields.String
+
 #     }
 #
 #     @marshal_with(resource_fields)
