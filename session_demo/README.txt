@@ -1,0 +1,2 @@
+一般大型项目使用cookie
+session的操作不多
