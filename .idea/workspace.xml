@@ -3,6 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="e4bc2aec-ffd6-4ae5-a9ec-ece843925b66" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/.idea/01_first_sqlalchemy.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo01.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo02.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo03.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo04.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo05.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo06.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo07.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo08.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo09.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo10.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/demo11.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/flask_args_standard/.idea/workspace.xml" afterPath="$PROJECT_DIR$/flask_args_standard/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +27,50 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="demo01.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo03.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo03.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2523">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo04.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo02.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,5 +184,39 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2523">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
