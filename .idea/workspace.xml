@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4bc2aec-ffd6-4ae5-a9ec-ece843925b66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/project based on flask.iml" afterPath="$PROJECT_DIR$/.idea/project based on flask.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/01_first_sqlalchemy/demo03.py" afterPath="$PROJECT_DIR$/01_first_sqlalchemy/demo03.py" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/.idea/01_first_sqlalchemy.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/database/01_first_sqlalchemy/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo03.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="demo03.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2806">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="326">
+              <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -76,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlalchemy笔记.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqlalchemy笔记.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/sqlalchemy笔记.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
+            <state relative-caret-position="900">
               <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
@@ -109,6 +107,7 @@
         <option value="$PROJECT_DIR$/02_flask_sqlalchemy_demo/flask_sqlalchemy笔记.txt" />
         <option value="$PROJECT_DIR$/01_first_sqlalchemy/sqlalchemy笔记.txt" />
         <option value="$PROJECT_DIR$/01_first_sqlalchemy/sqlalchemy笔记.md" />
+        <option value="$PROJECT_DIR$/01_first_sqlalchemy/demo03.py" />
       </list>
     </option>
   </component>
@@ -150,11 +149,6 @@
               <item name="project based on flask" type="b2602c69:ProjectViewProjectNode" />
               <item name="project based on flask" type="462c0819:PsiDirectoryNode" />
               <item name="01_first_sqlalchemy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project based on flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project based on flask" type="462c0819:PsiDirectoryNode" />
-              <item name="03_alembic_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,6 +293,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/sqlalchemy笔记.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_flask_sqlalchemy_demo/02_flask_sqlalchemy_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1042">
@@ -306,14 +308,6 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2806">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -333,10 +327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/sqlalchemy笔记.md">
+    <entry file="file://$PROJECT_DIR$/01_first_sqlalchemy/demo03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="326">
+          <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="25" />
           <folding />
         </state>
       </provider>

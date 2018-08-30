@@ -86,6 +86,7 @@ def delete_data():
     session.commit()
 
 
+# 定义后运行下面的函数
 if __name__ == '__main__':
     # add_data()
     # search_data()
