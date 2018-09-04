@@ -71,8 +71,11 @@ class Article(Base):
 
 # and
 # articles = session.query(Article).filter(Article.title=='abc',Article.content=='abc').all()
+# 第二种方法不推荐
+# articles = session.query(Article).filter(and_(Article.title=='abc',Article.content=='abc'))
 # print(articles)
 
 # or
+# 应用场景：搜索中
 articles = session.query(Article).filter(or_(Article.title=='abc',Article.content=='abc'))
 print(articles)
