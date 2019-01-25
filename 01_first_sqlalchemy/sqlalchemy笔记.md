@@ -244,7 +244,7 @@ print(result.fetchone())
     ```python
     query.filter(User.name != None)
     # 或者是
-    query.filter(User.name.isnot(None))
+    query.filter(User.name.isnot(None))  #这个方法实际使用会报错
     ```
 
 7. and：
@@ -259,7 +259,7 @@ print(result.fetchone())
 
 8. or：
     ```python
-    from sqlalchemy import or_ 
+    from sqlalchemy import or_
  query.filter(or_(User.name=='ed',User.name=='wendy'))
     ```
 
@@ -289,10 +289,10 @@ class Article(Base):
 
     uid = Column(Integer,ForeignKey("user.id"))
 ```
-外键约束有以下几项： 
-1. RESTRICT：父表数据被删除，会阻止删除。默认就是这一项。 
-2. NO ACTION：在MySQL中，同RESTRICT。 
-3. 3. CASCADE：级联删除。 
+外键约束有以下几项：
+1. RESTRICT：父表数据被删除，会阻止删除。默认就是这一项。
+2. NO ACTION：在MySQL中，同RESTRICT。
+3. 3. CASCADE：级联删除。
 4. 4. SET NULL：父表数据被删除，子表数据会设置为NULL。
 
 ### ORM关系以及一对多：
@@ -382,17 +382,17 @@ class UserExtend(Base):
 ORM层面删除数据，会无视mysql级别的外键约束。直接会将对应的数据删除，然后将从表中的那个
 外键设置为NULL。如果想要避免这种行为，应该将从表中的外键的`nullable=False`。
 在SQLAlchemy，只要将一个数据添加到session中，和他相关联的数据都可以一起存入到数据库中了
-。这些是怎么设置的呢？其实是通过relationship的时候，有一个关键字参数cascade可以设置这些属性： 
+。这些是怎么设置的呢？其实是通过relationship的时候，有一个关键字参数cascade可以设置这些属性：
 1. save-update：默认选项。在添加一条数据的时候，会把其他和他相关联的数据都添加到数据库中。
-这种行为就是save-update属性影响的。 
+这种行为就是save-update属性影响的。
 2. delete：表示当删除某一个模型中的数据的时候，是否也删掉使用relationship和他关联的数据。
 3. delete-orphan：表示当对一个ORM对象解除了父表中的关联对象的时候，自己便会被删除掉。
 当然如果父表中的数据被删除，自己也会被删除。这个选项只能用在一对多上，不能用在多对多以
-及多对一上。并且还需要在子模型中的relationship中，增加一个single_parent=True的参数。 
+及多对一上。并且还需要在子模型中的relationship中，增加一个single_parent=True的参数。
 4. merge：默认选项。当在使用session.merge，合并一个对象的时候，会将使用了relationship
-相关联的对象也进行merge操作。 
+相关联的对象也进行merge操作。
 5. expunge：移除操作的时候，会将相关联的对象也进行移除。这个操作只是从session中移除，
-并不会真正的从数据库中删除。 
+并不会真正的从数据库中删除。
 6. all：是对save-update, merge, refresh-expire, expunge, delete几种的缩写。
 
 
